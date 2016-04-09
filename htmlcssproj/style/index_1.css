@@ -113,10 +113,11 @@ body{background: #fff url("../img/body-bg.png") repeat-x;font-family: arial}
 #ChooseMenu #Choose_SortType{height: 20px;width: 428px;float: left}
 #ChooseMenu #Choose_SortType form{display: inline-block;}
 #Choose_SortType  span{font-size: 12px;color: #747474}
-#Choose_SortType .SelectType{font-size: 12px;color: #747474;margin-right: 16px;width: 108px;background: url("../img/select_bg.png") no-repeat right;}
+#Choose_SortType .SelectType{font-size: 12px;color: #747474;margin-right: 16px;width: 108px;background: url("../img/select_bg_1.png") no-repeat right;}
 
 #page_list {height: 20px;width: 230px;float: right;margin-right: 20px}
-#page_list span{font-size:12px;color: #999}
+#page_list span{font-size:12px;color: #999;display:inline-block;height:20px;}
+#page_list ul{display: inline-block;height: 20px}
 #page_list ul li{display: inline-block;font-size: 12px;color: #747474}
 #page_list li a{font-size: 12px;color: #747474;margin-right: 4px}
 
