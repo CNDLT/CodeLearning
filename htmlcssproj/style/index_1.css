@@ -130,5 +130,11 @@ body{background: #fff url("../img/body-bg.png") repeat-x;font-family: arial}
 #Product_info li h5 {font-size: 15px;font-weight: normal;color: #666}
 #Product_info li p {font-size: 13px;color: #333}
 #Product_info li p span{color: #b20e00}
+
+#PageList{ width: 716px}
+#PageList ul{padding-left:200px;height: 29px;line-height: 30px;border-bottom: 1px solid #cdcdc8;padding-bottom: 5px}
+#PageList li{display: inline-block;height: 20px;line-height: 20px;background: #fff;color: #b20e00;font-size: 13px}
+#PageList li a{display:inline-block; height: 20px;line-height: 20px;background: #fff;color: #b20e00;padding:6px 8px 4px 8px;}
+#PageList a:hover{background: #b20e00;color: #fff}
 /*网页尾部*/
 #footer{height: 302px;background: url("../img/footer_bg.png") repeat-x;clear: both;margin:24px auto}
