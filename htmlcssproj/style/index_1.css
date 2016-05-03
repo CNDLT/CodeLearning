@@ -1,5 +1,5 @@
 /*样式重置*/
-head,body,div,ul,li,a,p,strong,span,h2,h5{margin: 0;padding: 0;}
+head,body,div,ul,li,a,p,strong,span,h2,h5,h3{margin: 0;padding: 0;}
 a{text-decoration: none;color: white}
 li{list-style: none;display: inline-block;border: none}
 .clear{zoom:1}
@@ -74,13 +74,13 @@ body{background: #fff url("../img/body-bg.png") repeat-x;font-family: arial}
 #leftContent_info h2 strong{background: url("../img/leftContent_top.png") no-repeat}
 #leftContent_info h2 span{background: url("../img/leftContent_top.png") no-repeat  right -60px}
 #leftContent_info #nav_Menu ul{background:#ffeeb7;border: none;
-                     border-right: 1px solid #f3dc94;
-                     border-bottom: 1px solid #f3dc94;
-                     border-left: 1px solid #f3dc94;}
+				 border-right: 1px solid #f3dc94;
+				 border-bottom: 1px solid #f3dc94;
+				 border-left: 1px solid #f3dc94;}
 #leftContent_info #nav_Menu li{display: block;height: 29px;border-bottom: 1px solid #fff;margin-left: 8px;margin-right: 8px}
 #leftContent_info #nav_Menu li a{display: block;padding-left: 34px;
-                       height:29px;line-height: 29px;font-size:12px;
-                       color: #434343;font-weight:bold;}
+				height:29px;line-height: 29px;font-size:12px;
+				color: #434343;font-weight:bold;}
 #leftContent_info #nav_Menu li a:hover{color:#b20e00}
 #leftContent_info .endLi{height: 14px;border: none}
 #leftContent_info .ul_Left{width: 10px;height: 10px;position: absolute;z-index: 1;background: url("../img/leftContent_bottom.png") no-repeat;bottom: 0;left: 0;}
@@ -136,5 +136,16 @@ body{background: #fff url("../img/body-bg.png") repeat-x;font-family: arial}
 #PageList li{display: inline-block;height: 20px;line-height: 20px;background: #fff;color: #b20e00;font-size: 13px}
 #PageList li a{display:inline-block; height: 20px;line-height: 20px;background: #fff;color: #b20e00;padding:6px 8px 4px 8px;}
 #PageList a:hover{background: #b20e00;color: #fff}
+
+#Featured_Product{width: 716px;margin-top:14px;}
+#Featured_Product h3{font-size: 18px;color: #666;line-height: 30px;margin-left: 10px}
+#Featured_Product div{width: 716px;height: 198px}
+#Featured_Product #Featured_Left{background: url("../img/feature_bg.jpg") no-repeat;}
+#Featured_Product #Featured_Right{background: url("../img/feature_bg.jpg") no-repeat right -396px;}
+#Featured_Product #Featured_Middle{background: url("../img/feature_bg.jpg") repeat-x 0 -198px;}
+#Featured_Right img{display: inline-block; width: 145px;height: 99px;border: 1px solid #bfbfbf}
+#Featured_Right img:hover{border: 1px solid #b00000}
+#Featured_Right .feature_item{width: 147px;height: 142px;float: left;margin-top: 34px;margin-left: 68px}
+#Featured_Right .feature_item span{font-size: 12px;color: #660000;text-align: center; padding-left: 4px;display: inline-block;line-height: 20px}
 /*网页尾部*/
 #footer{height: 302px;background: url("../img/footer_bg.png") repeat-x;clear: both;margin:24px auto}
