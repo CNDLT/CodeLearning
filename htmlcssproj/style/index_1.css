@@ -26,12 +26,12 @@ body{background: #fff url("../img/body-bg.png") repeat-x;font-family: arial}
 #header #shopping a{ display: block; line-height:22px;text-align:center;width:114px;height:22px;color: #ffc200;font-size: 15px;margin: 0 0 13px 104px;}
 #header #shopping a:hover{color: #fbdf86}
 /*头部搜索*/
-#header_search{float: right;height: 100px;width:300px; }
-#header_search form{padding-top: 32px;padding-left: 10px}
-#header_search form  > input:nth-child(1){background:url("../img/serch_bd.png"); height: 30px;width: 250px;font-size: 13px;color: #666;border: none;float: left; /*重点在这*/ }
-#header_search form  > input:nth-child(1):focus{outline: none}
-#header_search form  > input:nth-child(2){background:url("../img/header_submit.png");height: 31px;width: 40px;border: none}
-#header_search form  > input:nth-child(2):hover{cursor: hand}
+.header_search{float: right;height: 100px;width:300px; }
+.header_search form{padding-top: 32px;padding-left: 10px}
+.header_search form  > input:nth-child(1){background:url("../img/serch_bd.png"); height: 30px;width: 250px;font-size: 13px;color: #666;border: none;float: left; /*重点在这*/ }
+.header_search form  > input:nth-child(1):focus{outline: none}
+.header_search form  > input:nth-child(2){background:url("../img/header_submit.png");height: 31px;width: 40px;border: none}
+.header_search form  > input:nth-child(2):hover{cursor: hand}
 
 /*导航条CSS样式*/
 #nav{margin: 0 auto;width: 960px;height: 36px;padding-top:8px;padding-left:25px;font-family:Arial Narrow;font-size:16px;}
@@ -149,3 +149,8 @@ body{background: #fff url("../img/body-bg.png") repeat-x;font-family: arial}
 #Featured_Right .feature_item span{font-size: 12px;color: #660000;text-align: center; padding-left: 4px;display: inline-block;line-height: 20px}
 /*网页尾部*/
 #footer{height: 302px;background: url("../img/footer_bg.png") repeat-x;clear: both;margin:24px auto}
+#footer_up{width: 986px;height: 60px;margin:0 auto;}
+#footer_bottom{width: 986px;height: 242px;margin:0 auto;}
+#footer_up .footer_up_info_1{display: inline-block;width: 270px;height: 60px;background: url("../img/footer_up_bg.png")  no-repeat; padding-left: 85px}
+#footer_up .footer_up_info_2{display: inline-block;width: 220px;height: 60px;background: url("../img/footer_up_bg.png") no-repeat 0px -60px ;padding-left: 85px}
+#footer_up  strong{font-size: 14px;color: #cbcbcb;display: inline-block;height: 60px;line-height: 60px}
